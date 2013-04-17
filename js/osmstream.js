@@ -18,8 +18,8 @@ var osmStream = (function osmMinutely() {
 
     function changeUrl(id) {
         return baseUrl + changePath + qs.stringify({
-            id: id, info: 'no' // 
-        }) + '&bbox=116.8879556,4.4149,126.605,21.1211';
+            id: id, info: 'no', bbox: '116.8879,4.4149,126.605,21.1211'
+        });
     }
 
     function requestState(cb) {
