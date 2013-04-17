@@ -2,7 +2,7 @@ var paused = false,
 
     map = L.map('map', {
         zoomControl: false
-    }).setView([51.505, -0.09], 13),
+    }).setView([14.5175, 121.0226], 13),
 
     bing = new L.BingLayer('Arzdiw4nlOJzRwOz__qailc8NiR31Tt51dN2D7cm57NrnceZnCpgOkmJhNpGoppU', 'Aerial')
         .addTo(map),
@@ -14,7 +14,7 @@ var paused = false,
         scrollWheelZoom: false,
         doubleClickZoom: false,
         boxZoom: false
-    }).setView([51.505, -0.09], 4),
+    }).setView([14.5175, 121.0226], 4),
 
     osm = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         minZoom: 8,
