@@ -22,7 +22,7 @@ var paused = false,
         attribution: 'Map data © OpenStreetMap contributors'
     }).addTo(overview_map),
 
-    changesToShowEveryMinute = 30,
+    changesToShowEveryMinute = 60,
 
     oldLine = L.polyline([], {
         opacity: 0.3
