@@ -19,7 +19,7 @@ var osmStream = (function osmMinutely() {
     function changeUrl(id) {
         return baseUrl + changePath + qs.stringify({
             id: id, info: 'no'
-        }) + '&bbox=116.88,4.41,126.60,21.12'; 
+        }) + '&bbox= 120.359,14.791,120.741,14.995'; 
     }
 
     function requestState(cb) {
